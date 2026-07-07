@@ -1,1 +1,42 @@
-{}  
+{
+  "common": {
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search"
+  },
+  "auth": {
+    "login": "Login",
+    "phone": "Phone Number",
+    "otp": "Verification Code",
+    "send_otp": "Send Code",
+    "verify": "Verify",
+    "telegram_login": "Login with Telegram"
+  },
+  "home": {
+    "welcome": "Welcome back, {{name}}",
+    "available_bonus": "Available Bonus",
+    "recent_activities": "Recent Activities",
+    "view_details": "View Details"
+  },
+  "menu": {
+    "categories": "Categories",
+    "add_to_cart": "Add to Cart",
+    "quantity": "Quantity",
+    "price": "Price"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "bonus": "Bonus Points",
+    "apply_bonus": "Apply Bonus",
+    "checkout": "Checkout"
+  }
+}
