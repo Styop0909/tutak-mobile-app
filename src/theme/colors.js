@@ -1,2 +1,52 @@
-// Colors  
-export const colors = { primary: '#4CAF50' };  
+export const colors = {
+  white: '#FFFFFF',
+  black: '#000000',
+  primary: {
+    main: '#4CAF50',
+    light: '#81C784',
+    dark: '#388E3C',
+    contrast: '#FFFFFF',
+  },
+  secondary: {
+    main: '#2E7D32',
+    light: '#4CAF50',
+    dark: '#1B5E20',
+  },
+  background: {
+    default: '#F5F5F5',
+    paper: '#FFFFFF',
+  },
+  text: {
+    primary: '#212121',
+    secondary: '#757575',
+    hint: '#9E9E9E',
+    disabled: '#BDBDBD',
+  },
+  success: '#4CAF50',
+  warning: '#FF9800',
+  error: '#F44336',
+  info: '#2196F3',
+  grey: {
+    50: '#FAFAFA',
+    100: '#F5F5F5',
+    200: '#EEEEEE',
+    300: '#E0E0E0',
+    400: '#BDBDBD',
+    500: '#9E9E9E',
+    600: '#757575',
+    700: '#616161',
+    800: '#424242',
+    900: '#212121',
+  },
+  bonus: {
+    available: '#4CAF50',
+    frozen: '#FF9800',
+    expired: '#F44336',
+  },
+  status: {
+    pending: '#FF9800',
+    processing: '#2196F3',
+    completed: '#4CAF50',
+    cancelled: '#F44336',
+  },
+};
